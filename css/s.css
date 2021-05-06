@@ -1,0 +1,334 @@
+ *{margin:0;padding:0;list-style:none;text-decoration: none;font-family:"黑体","微软雅黑";}  
+
+body
+{
+	background:url("../img/f.jpg") no-repeat;
+}
+
+#div1
+{
+	width:1200px;
+	height:820px;
+	background:#f6f1dd00;
+	margin:100px auto;
+	overflow:inherit;
+	border:solid #a99362 5px;
+}
+
+.lb
+{
+	display:inline-block;
+	width:200px;
+	height:45px;
+	margin-top:47px;
+	color:#d7cdb6;
+	border-radius:29px;
+	border:solid #a99362 5px;
+	transition: 0.5s;
+}
+.lb:hover{background: #a99362;}
+#ul1
+{
+	width:300px;
+	height:650px;
+	position:relative;
+	top:-18px;
+	left:10px;
+}
+
+
+.fn
+{
+	font-size:10px;
+	line-height:45px;
+	text-align: center;
+}
+
+.fn2
+{
+	color:#d7cdb6;
+	font-size:20px;
+}
+
+#s1
+{
+	width:960px;
+	height:688px;
+	float:right;
+	margin:-620px 300px 0 0;
+	transition:1s;
+}
+
+#s1 p
+{
+	font-size:30px;
+	color:#d7cdb6;
+	line-height:688px;
+	margin:0 auto;
+}
+
+#in
+{
+	margin:0 auto;
+	width:300px;
+	height:150px;
+	margin-top:-555px;
+}
+
+#in1,#in2
+{
+	width:200px;
+	height:30px;
+	border:none;
+	border-bottom:#a99362 solid 2px; 
+	outline: none;
+	background:#00000000;
+}
+
+#bt
+{
+	width:50px;
+	height:30px;
+	border:#a99362 solid 1px;
+	border-radius:10px;
+	display:inline-block;
+	text-decoration: none;
+	color:#d7cdb6;
+	font-size:15px;
+	line-height: 30px;
+	margin-left:68px;
+	transition:0.5s;
+}
+
+#bt:hover
+{
+	background:#a99362;
+	color:#d7cdb6;
+	transition:0.5s;
+}
+
+#bt p
+{
+	width:30px;
+	height:15px;
+	margin:0 auto;
+}
+
+#fnt1
+{
+	color:#d7cdb6;
+	border-bottom:#a99362 1px solid;
+	width:200px;
+	text-align:center;
+	margin:-9px 0 0 802px;
+	display: none;
+}
+
+.mb
+{
+	display:inline-block;
+	color:#d7cdb6;
+	margin:2px 0px 6px 50px;
+	width:175px;
+	height:40px;
+	text-align:center;
+	float:right;
+	transition: 0.5s;
+	border:5px solid #a99362;
+	border-radius:30px;
+	line-height:40px;
+	font-size:10px;
+}
+
+#s1
+{
+	width:300px;
+	height:20px;
+}
+
+#Mb,.mb:hover
+{
+	background:#a99362;
+	font-family:"华文细黑";
+}
+
+#mb
+{
+	background:#a99362;
+	color:#d7cdb6;
+	font-family:"华文细黑";
+}
+
+#fnt2
+{
+	width:933px;
+	height:695px;
+	margin:-550px 0 0 28px;
+	color:#d7cdb6;
+	font-family:"华文细黑";
+	position:relative;
+	overflow:auto;
+}
+
+#fnt3{
+	width:auto;
+	height:auto;
+	text-align: center;
+	
+}
+
+.pt
+{
+	background:none;
+}
+
+
+#pt ul{transition:1s;}
+
+#ptt,#ptt1,#ptt2,#ptt3
+{
+	width:498px;
+	height:220px;
+	margin:0 auto;
+	overflow: hidden;
+	border:5px solid #a99362;
+}
+
+/*
+
+#li_div{
+	width:960px;
+	height:703px;
+	position:absolute;
+	top:130px;
+	right:359px;
+	overflow:auto;
+}
+*/
+
+#li_div
+{
+	width:960px;
+	height:770px;
+	position:absolute;
+	top:130px;
+	left:585px;
+	overflow: auto;
+}
+
+#pt{
+	width:auto;
+	height:auto;
+}
+
+#li_div5{
+	width:auto;
+	height:auto;
+}
+
+#li_div3_1
+{
+	width:960px;
+	height:703px;
+	
+}
+
+.li_div3
+{
+	width:175px;
+	height:40px;
+	border:1px solid #a99362;
+	float:left;
+	margin-left:100px;
+	border-radius:50px;
+	text-align: center;
+	line-height: 40px;
+	color:#d7cdb6;
+	font-size:10px;
+}
+
+.li_div3:hover
+{
+	background:#a99362;
+	transition:1s;
+}
+
+.fnt2_1
+{
+	width:310px;
+	height:450px;
+	float:left;
+	margin:0 0 50px 100px;
+	transition:3s;
+	overflow:hidden;
+	position: relative;
+	border:5px solid #a99362;
+}
+
+.fnt2_1,.fnt2_2
+{
+	color:#d7cdb6;
+}
+
+.fnt2_2
+{
+	float:left;
+	width:125px;
+	height:40px;
+	border:3px solid #a99362;
+	border-radius:50px;
+	text-align: center;
+	line-height:40px;
+	font-size:10px;
+	transition: 0.5s;
+	position:absolute;
+	left:90px;
+	top:400px;
+}
+
+.fnt2_1 p
+{
+	width:310px;
+	height:70px;
+	overflow: auto;
+	text-indent:2em;
+	font-size:10px;
+}
+
+.fnt2_2:hover{background:#a99362;color:#d7cdb6;}
+
+.li_div3_2
+{
+	width:933px;
+	height:670px;
+	margin-top:-650px;
+}
+
+#vr
+{
+	background:#a99362;
+	width:auto;
+	height:auto;
+	margin:0 100px;
+}
+
+#cn5 img
+{
+	margin:0 210px;
+}
+
+/*
+.imgs
+{
+	display:inline-block;
+	margin-bottom:0px;
+	transition:1s;
+}*/
+
+.no-date
+{
+	width:250px;
+	height:192px;
+	margin:260px 300px;
+	
+}
